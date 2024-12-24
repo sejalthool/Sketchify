@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-['Poppins'];
+  }
+}
+
+@layer components {
+  .textArea {
+    @apply fixed font-sans text-2xl m-0 p-0 border-0 outline-none overflow-hidden whitespace-pre bg-transparent z-[2];
+  }
+}
+
+@layer utilities {
+  .button-base {
+    @apply cursor-pointer;
+  }
+}
